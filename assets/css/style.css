@@ -1,0 +1,26 @@
+
+
+#red-jewel {
+    border: 20px;
+    border-block-color: black;
+    float:center;
+    
+}
+#pink-jewel {
+    border: 20px;
+    border-solid-color: black;
+    float:center;
+}
+#green-jewel {
+    border: 20px;
+    border-solid-color: black;
+    float:center;
+
+}
+#blue-jewel {
+    border: 20px;
+    border-solid-color: black;
+    float:center;
+}
+
+
