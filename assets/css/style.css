@@ -1,26 +1,76 @@
-
-
-#red-jewel {
-    border: 20px;
-    border-block-color: black;
-    float:center;
-    
-}
-#pink-jewel {
-    border: 20px;
-    border-solid-color: black;
-    float:center;
-}
-#green-jewel {
-    border: 20px;
-    border-solid-color: black;
-    float:center;
-
-}
-#blue-jewel {
-    border: 20px;
-    border-solid-color: black;
-    float:center;
+#crystal1,
+#crystal2,
+#crystal3,
+#crystal4 {
+	width: 325px;
+	height: 400px;
 }
 
+body {
+	font-family: 'Dosis', cursive;
+	background: #eee;
+	color: #BD567B;
+	margin: 70px;
+	text-align: center;
+	cursor: cell;
+}
 
+#crystals {
+	margin: -20px;
+}
+
+p {
+	color: #2C457D;
+	font-size: 20px;
+	line-height: .9;
+}
+
+h1 {
+	font-size: 70px;
+	letter-spacing: 5px;
+	color: #BD567B;
+	font-family: 'Shrikhand', cursive;
+}
+
+h2 {
+	font-family: 'Dosis', cursive;
+	font-size: 40px;
+	color: #BD567B;
+}
+
+h3 {
+	font-family: 'Dosis', cursive;
+	font-size: 30px;
+	color: #BD567B;
+}
+
+#targetNumber,
+#yourNumber,
+#wins,
+#losses {
+	margin-top: -15px;
+}
+
+#top,
+#bottom,
+#left,
+#right {
+	background: #BD567B;
+	position: fixed;
+}
+
+#left,
+#right {
+	top: 0; bottom: 0;
+	width: 30px;
+}
+	#left { left: 0; }
+	#right { right: 0; }
+
+#top,
+#bottom {
+	left: 0; right: 0;
+	height: 30px;
+}
+	#top { top: 0; }
+	#bottom { bottom: 0; }
